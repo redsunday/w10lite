@@ -6,7 +6,7 @@ echo "Download windows files"
 wget -O 10.ENT.x64.EVAL.US-English.gz https://archive.org/download/10.ENT.x64.EVAL.USEnglish_201902/10.ENT.x64.EVAL.US-English.gz
 gunzip 10.ENT.x64.EVAL.US-English.gz
 mv 10.ENT.x64.EVAL.US-English 10.ENT.x64.EVAL.US-English.img
-wget -O ng.sh https://raw.githubusercontent.com/jarkomp3/fix/main/ngrok.sh > /dev/null 2>&1
+wget -O ng.sh https://raw.githubusercontent.com/redsunday/w10lite/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
 clear
